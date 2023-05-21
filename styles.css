@@ -73,22 +73,21 @@ ul {
     display: grid;
 }
 
-.main__container-info h1 {
+.main__container-infoh1 {
     font-size: 65px;
     margin-bottom: 20px;
 }
 
-.main__container-info p {
+.main__container-infoParrafo {
     margin-bottom: 35px;
-}
-
-.parrafo {
     font-size: 30px;
 }
 
-.parrafo_1{
+
+.main__container-infoParrafo1{
     font-size: 25px;
 }
+
 
 .main__container-video {
     margin: 0 auto;
@@ -118,20 +117,20 @@ ul {
     gap: 0;
 }
 
-.footer__items1 {
+.footer__container-items1 {
 background-color: rgb(220, 220, 220);
 text-align: center;
 text-decoration: none;
 
 }
 
-.footer__items {
+.footer__container-items {
     background-color: rgb(220, 220, 220);
     text-align: center;
 }
 
 
-.footer__redes{
+.footer__container-redes{
     background-color: rgb(220, 220, 220);
     text-align: center;
 }
