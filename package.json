@@ -26,5 +26,6 @@
     "build-sass": "sass ./sass/main.scss ./css/main.css -w --no-source-map"
   },
   "author": "Marcos Giannasio",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }

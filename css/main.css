@@ -27,12 +27,15 @@ ul {
 .footer {
   font-size: 1rem;
   font-style: normal;
+  background-color: rgb(220, 220, 220);
 }
 .footer__container {
-  height: 50px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0;
+  height: 15%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
 }
 .footer__container-end {
   height: 50px;
@@ -41,21 +44,17 @@ ul {
   gap: 0;
 }
 .footer__items1 {
-  background-color: rgb(220, 220, 220);
   text-align: center;
-  text-decoration: none;
 }
 .footer__items {
-  background-color: rgb(220, 220, 220);
   text-align: center;
 }
 .footer__redes {
-  background-color: rgb(220, 220, 220);
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  .footer__items1:hover {
+  .footer__items-privacy:hover {
     color: rgba(16, 16, 248, 0.454);
     text-shadow: 2px 2px 2px grey;
     font-weight: bold;
